@@ -22,6 +22,6 @@ SQL, short for Structured Query Language, is a powerful language used for managi
 
 ## link of image 
 
-[alt](/image%20of%20sql/)
+[link of image ](/image%20of%20sql/)
 
 
