@@ -18,4 +18,5 @@ Code 401 - Advanced Software Development
 | -------- | -------- | 
 | Sql |  [sql.md](/sql.md) |
 | Growth mindset  | [Growth mindset](/Grothmindset.md) |
+| Read class 3  | [Read class 3](/readclass3.md) |
  
