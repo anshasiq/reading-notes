@@ -19,3 +19,9 @@ SQL, short for Structured Query Language, is a powerful language used for managi
 - `JOIN`: Combines data from two or more tables based on a related column.
 
 - `WHERE`: Filters data based on specified conditions.
+
+## link of image 
+
+[alt](/image%20of%20sql/)
+
+
