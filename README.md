@@ -20,6 +20,8 @@ Code 401 - Advanced Software Development
 | Growth mindset  | [Growth mindset](/Grothmindset.md) |
 | Read class 3  | [Read class 3](/read-class3.md) |
 | Read class 4  | [Read class 4](/Read:Class-04.md) |
-| Read class 4  | [Read class 11](/read-class-11.md) |
+| Read class 11  | [Read class 11](/read-class-11.md) |
+| Read class 13 | [Read class 13](/readclass13.md) |
+
 
  
