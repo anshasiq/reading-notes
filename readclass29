@@ -1,0 +1,31 @@
+Room is an Android library that provides an abstraction layer over SQLite, a widely used relational database engine. SQLite is a serverless, self-contained, and lightweight database engine that is embedded in Android, making it a suitable choice for mobile applications due to its minimal resource requirements and efficient storage capabilities. 
+
+Room's use of SQLite is generally a good choice for Android applications for several reasons:
+
+1. Performance: SQLite is known for its high performance and low overhead, making it well-suited for mobile applications, which often have limited computational resources and battery life concerns.
+
+2. Compatibility: SQLite is included as a part of the Android platform, so there's no need to rely on external database servers or installations, ensuring compatibility across Android devices.
+
+3. Data Persistence: SQLite databases are persistent, which means data can be stored and accessed even after an application is closed or the device is rebooted.
+
+4. Transaction Support: SQLite provides ACID (Atomicity, Consistency, Isolation, Durability) transactions, which are crucial for maintaining data integrity.
+
+5. Ease of Use: Room simplifies working with SQLite by providing a higher-level, object-oriented API that reduces the amount of boilerplate code developers need to write.
+
+In regards to Room's similarities with JPA (Java Persistence API):
+
+Room and JPA are similar in that they both provide object-relational mapping (ORM) capabilities, allowing developers to work with databases using object-oriented models. However, there are also some key differences:
+
+1. Platform: JPA is a standard Java API for ORM, primarily used in Java applications, whereas Room is a library specifically designed for Android applications.
+
+2. Annotations: Both Room and JPA use annotations to define entities and their relationships. However, the specific annotations and syntax may differ between the two.
+
+3. Database Engines: JPA is more flexible in terms of database backends and supports a wide range of relational databases, whereas Room is tightly integrated with SQLite, which is the default choice for Android.
+
+4. Tooling: Room provides additional tooling and integration with Android's development environment, making it more tailored to Android app development.
+
+5. Asynchronous Operations: Room simplifies asynchronous database access, considering the constraints of mobile applications, while JPA typically requires more manual handling of asynchronous tasks.
+
+A Data Access Object (DAO) is a design pattern commonly used in software development, and it plays a central role in Room. In the context of Room, a DAO is an interface or class that defines methods for accessing the database. These methods typically include queries to retrieve, insert, update, or delete data from the database. 
+
+In your own words, a DAO in Room acts as an intermediary between your application code and the underlying database (SQLite). It encapsulates all the database-related operations, allowing you to work with Java or Kotlin objects instead of writing raw SQL queries. This abstraction simplifies database access and helps maintain a clean separation of concerns in your application, making it easier to manage and maintain your data storage layer.
